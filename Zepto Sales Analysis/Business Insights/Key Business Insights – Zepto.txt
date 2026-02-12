@@ -1,0 +1,31 @@
+# 📊 Key Business Insights – Zepto SQL Analysis
+
+## 🔥 Discount Analysis
+- Identified top 10 products offering highest discount percentages.
+- Certain categories consistently offer higher average discounts.
+
+## 💰 Revenue Estimation
+- Estimated category-wise revenue using:
+  discountSellingPrice × availableQuantity.
+- Some categories contribute significantly higher revenue potential.
+
+## 📦 Inventory Gaps
+- Found high-MRP products that are currently out of stock.
+- Indicates potential lost revenue opportunities.
+
+## ⚖️ Price Efficiency
+- Calculated price per gram for products above 100g.
+- Identified best value-for-money products.
+
+## 🏷️ Premium Product Segment
+- Filtered products where MRP > ₹500 and discount < 10%.
+- These likely represent premium pricing strategies.
+
+## 📊 Weight Segmentation
+- Categorized products into:
+  - Low (<1000g)
+  - Medium (<5000g)
+  - Bulk (>5000g)
+- Helps in inventory planning and warehouse optimization.
+
+Overall, the dataset reveals pricing strategy patterns, inventory gaps, and category-level revenue opportunities.

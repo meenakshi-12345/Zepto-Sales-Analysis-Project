@@ -1,0 +1,29 @@
+# 🧹 Data Cleaning Steps – Zepto SQL Analysis
+
+Before performing business analysis, the dataset was validated and cleaned to ensure accuracy and reliability.
+
+## 1. Null Value Check
+- Checked all columns for NULL values.
+- Ensured product name is NOT NULL (as defined in schema).
+
+## 2. Duplicate Product Names
+- Identified products where the same name appeared multiple times.
+- Verified whether duplicates were valid SKUs or data issues.
+
+## 3. Zero Price Validation
+- Found products where MRP = 0 or Selling Price = 0.
+- Removed rows where MRP = 0 to avoid skewed analysis.
+
+## 4. Currency Standardization
+- Prices were originally in paise.
+- Converted MRP and discountSellingPrice from paise to rupees.
+
+## 5. Stock Validation
+- Verified OutOfStock boolean values.
+- Checked availableQuantity consistency.
+
+## 6. Weight Consistency
+- Ensured weightInGms values were realistic.
+- Used weight for segmentation and price-per-gram calculation.
+
+These cleaning steps ensured accurate revenue estimation and discount analysis.
