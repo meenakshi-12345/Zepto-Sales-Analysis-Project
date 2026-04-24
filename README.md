@@ -129,4 +129,5 @@ Review results for business insights.
 👩‍💻 Author
 
 Meenakshi Rajpurohit
+connect with me: imeenakshii28@gmail.com
 Aspiring Data Analyst | SQL | Power BI | Data Analytics
